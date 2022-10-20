@@ -1,0 +1,92 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: inherit;
+	font-weight: inherit;
+	text-decoration: inherit;
+	list-style: none;
+}
+
+.body {
+	position: relative;
+	width: 75vw;
+	margin: 0 auto;
+}
+
+.menu {
+	background-color: #404040;
+	padding: 0 30px;
+}
+
+.list {
+	display: flex;
+	justify-content: center;
+}
+
+.item {
+	padding: 15px 40px;
+}
+
+.item:nth-child(1):hover::before,
+.item:nth-child(2):hover::before,
+.item:nth-child(3):hover::before,
+.item:nth-child(4):hover::before,
+.item:nth-child(5):hover::before {
+	content: '';
+	position: absolute;
+	top: 50px;
+	left: 0;
+	width: 100%;
+	height: 5px;
+}
+
+.item:hover {
+	height: 50px;
+}
+
+.item:nth-child(1) {
+	background-color: #ff8000;
+}
+
+.item:nth-child(1):hover::before {
+	background-color: #ff8000;
+}
+
+.item:nth-child(2) {
+	background-color: #E92222;
+}
+
+.item:nth-child(2):hover::before {
+	background-color: #E92222;
+}
+
+.item:nth-child(3) {
+	background-color: #9322E9;
+}
+
+.item:nth-child(3):hover::before {
+	background-color: #9322E9;
+}
+
+.item:nth-child(4) {
+	background-color: #22D5E9;
+}
+
+.item:nth-child(4):hover::before {
+	background-color: #22D5E9;
+}
+
+.item:nth-child(5) {
+	background-color: #22E978;
+}
+
+.item:nth-child(5):hover::before {
+	background-color: #22E978;
+}
+
+.link {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	color: #fff;
+	text-transform: uppercase;
+}

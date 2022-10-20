@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: inherit;
+	font-weight: inherit;
+	text-decoration: inherit;
+	list-style: none;
+}
+
+
+.body {
+
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	width: 75vw;
+	margin: 0 auto;
+	background: url('../image/bg.jpg')0 0/cover no-repeat;
+	border-bottom:  5px solid #ff8000;
+}
+
+.menu {
+	padding: 25px 30px;
+}
+
+.list {
+	display: flex;
+	justify-content: center;
+	gap: 60px;
+}
+
+.link {
+	color: #fff;
+	text-transform: uppercase;
+	transition: .2s;
+}
+
+.link:hover {
+	color: #ff8000;
+}
